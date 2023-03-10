@@ -16,3 +16,18 @@ div{
 #skills, td{
     border: solid;
 }
+
+body{
+  background-color: #C0EEF2;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1,h2{
+  color: #181823;
+}
