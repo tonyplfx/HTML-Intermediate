@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Sitio Personal de Manuel</title>
-    <link rel="stylesheet" type"text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <div class="manuel">
-    <img src="images/manuel.jpg" alt="Manuel Antonio Palafox Macias">
-    </div>
-    <p><em>Estudiante de La Escuel Superior de <a href="https://www.esimez.ipn.mx/">Ingenieria Mecanica y Electrica</a> </em></p>
-    <p>Soy un estudiante autodidacta el cual le atraen los grandes retos y las dificultades que estos conllevan</p>
+    <table class="encabezado">
+        <td><div class="manuel">
+            <img src="images/manuel.jpg" alt="Manuel Antonio Palafox Macias">
+            </div>
+        </td>
+
+        <td class="info-encabezado">
+            <h1>Manuel Antonio Palafox Macias</h1>     
+             <p><em>Estudiante de La Escuel Superior de <a href="https://www.esimez.ipn.mx/">Ingenieria Mecanica y Electrica</a> </em></p>
+            <p>Soy un estudiante autodidacta el cual le atraen los grandes retos y las dificultades que estos conllevan</p>
+        </td>
+    </table>
     <hr>
-    <h3>Experiencia En Proyectos</h3>
+    <h2>Experiencia En Proyectos</h2>
     <ul>
         <li>Desarrollo de plataformas para la expresión estudiantil</li>
         <li>Auxiliar en servicio social en plataformas bio-informaticas en r y python</li>
     </ul>
-    <h3>Escolaridades</h3>
-    <table>
+    <hr>
+
+    <h2>Escolaridades</h2>
+    <table class="escolaridades" >
         <thead>
             <tr> <!-- En este caso de la tabla tenemos el atributo de colspan para que el th ocupe el espacio de las 2 columnas en vez de solo 1-->
                 <th colspan="2">
@@ -37,6 +46,26 @@
             </tr>
         </tbody>
     </table>
+    <hr>
+    <h2>Skills</h2>
+    <table id="skills">
+        <thead>Habilidades</thead>
+        <tbody>
+            <tr border="solid" >
+                <td>Ios Developer 🌟</td>
+                <td>Empatía 🌟🌟🌟</td>
+            </tr>
+            <tr>
+                <td>Web DEveloper 🌟🌟🌟🌟</td>
+                <td>Conducción de las emociones 🌟🌟</td>
+            </tr>
+            <tr>
+                <td>C and C++ 🌟🌟</td>
+                <td>Trabajo en equipo 🌟🌟🌟</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
     <a href="hobbies.html">Mis Hobbies</a>
     <a href="contact-me.html">Contactame</a>
 </body>
